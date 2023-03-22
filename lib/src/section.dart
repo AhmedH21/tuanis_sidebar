@@ -10,7 +10,7 @@ import 'package:tuanis_sidebar/tuanis_sidebar.dart';
 /// [title] The text to display at the top of the section, before the items
 class TuanisSidebarSection extends StatelessWidget {
   /// The items of this section
-  final List<TuanisSidebarItem> items;
+  final List<Widget> items;
 
   /// The background color of the section. Shown only if [title] is passed
   final Color? backgroundColor;
