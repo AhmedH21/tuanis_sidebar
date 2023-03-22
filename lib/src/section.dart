@@ -19,7 +19,7 @@ class TuanisSidebarSection extends StatelessWidget {
   final Color? borderColor;
 
   /// The text to display at the top of the section, before the items
-  final Text? title;
+  final Widget? title;
 
   const TuanisSidebarSection({
     super.key,
