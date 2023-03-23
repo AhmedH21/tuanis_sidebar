@@ -48,7 +48,7 @@ class TuanisSidebarSection extends StatelessWidget {
                 : null,
             color: title != null && !isSidebarCollapse ? backgroundColor : null,
           ),
-          child: !isSidebarCollapse ? title : null,
+          child: title
         ),
         ...items,
       ],
